@@ -1,6 +1,13 @@
 # Effective AI Kit
 
+[![Version](https://img.shields.io/visual-studio-marketplace/v/yoavlax.effective-ai-kit?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=yoavlax.effective-ai-kit)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/yoavlax.effective-ai-kit?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=yoavlax.effective-ai-kit)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/yoavlax.effective-ai-kit?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=yoavlax.effective-ai-kit)
+[![License](https://img.shields.io/github/license/YoavLax/Effective-AI-KIT?style=flat-square)](LICENSE)
+
 A developer-focused VS Code extension for managing, sharing, and syncing AI chat modes, prompt configurations, and agent instructions. Designed for teams building with AI, this extension streamlines prompt engineering workflows and enables consistent, reusable AI behavior across environments.
+
+**[Install from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=yoavlax.effective-ai-kit)**
 
 ## Features
 
