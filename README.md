@@ -9,15 +9,48 @@ Pre-configured AI chat personalities tailored for specific roles:
 - **Azure Architect**: Specialized guidance for Azure cloud architecture and best practices
 - **Principal Software Engineer**: Expert-level software engineering assistance
 
-### 💡 Prompt Files
-Reusable prompt templates for common development tasks:
-- **Create README**: Generate comprehensive README documentation
-- **.NET Design Pattern Review**: Analyze and review .NET design patterns
+### 💡 Prompt Files (9 Templates)
+Reusable prompt templates accessible via `/` in GitHub Copilot Chat:
 
-### 📋 Chat Instructions
-Persistent AI instructions that enhance your development workflow:
-- **Memory Bank**: Maintain context across chat sessions
-- **Performance Optimization**: Focus on performance-related improvements
+**Azure & Cloud:**
+- `/az-cost-optimize` - Optimize Azure costs and resources
+- `/azure-resource-health-diagnose` - Diagnose Azure resource health issues
+
+**Development & Architecture:**
+- `/boost-prompt` - Boost and improve prompt quality
+- `/breakdown-feature-implementation` - Break down features into tasks
+- `/containerize-aspnet-framework` - Containerize ASP.NET Framework apps
+- `/dotnet-design-pattern-review` - Analyze and review .NET design patterns
+
+**Documentation:**
+- `/create-agentsmd` - Create agents.md documentation
+- `/create-readme` - Generate comprehensive README documentation
+
+**Version Control:**
+- `/git-flow-branch-creator` - Create Git Flow branches
+
+### 📋 Chat Instructions (14 Instruction Sets)
+Automatically referenced instructions that enhance your AI interactions:
+
+**Programming Languages:**
+- **Angular**: Framework best practices and guidelines
+- **Blazor**: Development guidelines and best practices
+- **C#**: Programming language best practices
+- **Go**: Programming language best practices
+- **Java**: Programming language best practices
+- **Rust**: Programming language best practices
+
+**Infrastructure & DevOps:**
+- **Ansible**: Automation and configuration management
+- **Azure DevOps Pipelines**: CI/CD pipeline best practices
+- **Docker**: Containerization best practices
+- **Terraform**: Infrastructure as code best practices
+- **Terraform Azure**: Azure-specific IaC best practices
+
+**Architecture & General:**
+- **.NET Architecture**: Design and architecture best practices
+- **Memory Bank**: Context management across chat sessions
+- **Performance Optimization**: Performance-focused guidance
 
 ## Installation
 
@@ -37,17 +70,18 @@ Persistent AI instructions that enhance your development workflow:
 ### Using Prompt Files
 Prompts can be accessed directly in GitHub Copilot Chat using the `/` command:
 1. Open GitHub Copilot Chat
-2. Type `/` to see available prompts
-3. Select from the available prompts:
+2. Type `/` to see all available prompts
+3. Select from 9 available prompts including:
    - `/create-readme` - Generate comprehensive README documentation
    - `/dotnet-design-pattern-review` - Analyze and review .NET design patterns
+   - `/az-cost-optimize` - Optimize Azure costs
+   - `/breakdown-feature-implementation` - Break down features into tasks
+   - And 5 more specialized prompts
 
 ### Using Chat Instructions
-Chat instructions are **automatically referenced** by GitHub Copilot Chat and enhance your AI interactions with persistent context and specialized behaviors:
-- **Memory Bank**: Automatically maintains context across chat sessions
-- **Performance Optimization**: Automatically applies performance-focused guidance
+Chat instructions are **automatically referenced** by GitHub Copilot Chat and enhance your AI interactions with persistent context and specialized behaviors across 14 different domains including programming languages, infrastructure, DevOps, and architecture.
 
-No additional configuration needed - these instructions work in the background to improve your AI assistance experience.
+No additional configuration needed - these instructions work in the background to improve your AI assistance experience based on your current context.
 
 ## Requirements
 
@@ -60,29 +94,20 @@ This extension contributes the following chat modes, prompts, and instructions t
 
 ## Known Issues
 
-This is the initial release. Please report any issues on the [GitHub repository](https://github.com/yourusername/effective-ai-kit/issues).
-
-## Release Notes
-
-### 1.0.0
-
-Initial release of Effective AI Kit:
-- 2 pre-configured chat modes (Azure Architect, Principal Software Engineer)
-- 2 prompt templates (Create README, .NET Design Pattern Review)
-- 2 chat instruction sets (Memory Bank, Performance Optimization)
+Please report any issues on the [GitHub repository](https://github.com/YoavLax/Effective-AI-KIT/issues).
 
 ---
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request on [GitHub](https://github.com/YoavLax/Effective-AI-KIT).
 
 ## License
 
-See LICENSE file for details.
+MIT License - See LICENSE file for details.
 
 ## Feedback
 
-Have suggestions or found a bug? Please [open an issue](https://github.com/yourusername/effective-ai-kit/issues).
+Have suggestions or found a bug? Please [open an issue](https://github.com/YoavLax/Effective-AI-KIT/issues).
 
 **Enjoy building with AI!**
