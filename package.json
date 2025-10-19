@@ -1,0 +1,92 @@
+{
+  "name": "effective-ai-kit",
+  "publisher": "yoavlax",
+  "displayName": "Effective AI Kit",
+  "description": "A developer-focused VSCode extension for managing, sharing, and syncing AI chat modes, prompt configurations, and agent instructions. Designed for teams building with AI, streamlines prompt engineering workflows and enables consistent, reusable AI behavior across environments.",
+  "version": "1.0.2",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "AI",
+    "Chat"
+  ],
+  "keywords": [
+    "ai",
+    "chat",
+    "prompts",
+    "github copilot",
+    "chat modes"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "effective-ai-kit.showInfo",
+        "title": "Effective AI Kit"
+      }
+    ],
+    "chatModes": [
+      {
+        "name": "azure-architect",
+        "description": "Azure Architect chat mode",
+        "path": "./prompts/azure-architect.chatmode.md"
+      },
+      {
+        "name": "principal-software-engineer",
+        "description": "Principal Software Engineer chat mode",
+        "path": "./prompts/principal-software-engineer.chatmode.md"
+      }
+    ],
+    "chatPromptFiles": [
+      {
+        "name": "create-readme",
+        "description": "Create README prompt",
+        "path": "./prompts/create-readme.prompt.md"
+      },
+      {
+        "name": "dotnet-design-pattern-review",
+        "description": ".NET Design Pattern Review prompt",
+        "path": "./prompts/dotnet-design-pattern-review.prompt.md"
+      }
+    ],
+    "chatInstructions": [
+      {
+        "name": "memory-bank",
+        "description": "Memory Bank instructions",
+        "path": "./prompts/memory-bank.instructions.md"
+      },
+      {
+        "name": "performance-optimization",
+        "description": "Performance Optimization instructions",
+        "path": "./prompts/performance-optimization.instructions.md"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.105.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "@typescript-eslint/parser": "^8.45.0",
+    "eslint": "^9.36.0",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
