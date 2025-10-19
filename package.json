@@ -47,26 +47,121 @@
     ],
     "chatPromptFiles": [
       {
+        "name": "az-cost-optimize",
+        "description": "Optimize Azure costs and resources",
+        "path": "./prompts/az-cost-optimize.prompt.md"
+      },
+      {
+        "name": "azure-resource-health-diagnose",
+        "description": "Diagnose Azure resource health issues",
+        "path": "./prompts/azure-resource-health-diagnose.prompt.md"
+      },
+      {
+        "name": "boost-prompt",
+        "description": "Boost and improve prompt quality",
+        "path": "./prompts/boost-prompt.prompt.md"
+      },
+      {
+        "name": "breakdown-feature-implementation",
+        "description": "Break down feature implementation into tasks",
+        "path": "./prompts/breakdown-feature-implementation.prompt.md"
+      },
+      {
+        "name": "containerize-aspnet-framework",
+        "description": "Containerize ASP.NET Framework applications",
+        "path": "./prompts/containerize-aspnet-framework.prompt.md"
+      },
+      {
+        "name": "create-agentsmd",
+        "description": "Create agents.md documentation",
+        "path": "./prompts/create-agentsmd.prompt.md"
+      },
+      {
         "name": "create-readme",
-        "description": "Create README prompt",
+        "description": "Create README documentation",
         "path": "./prompts/create-readme.prompt.md"
       },
       {
         "name": "dotnet-design-pattern-review",
-        "description": ".NET Design Pattern Review prompt",
+        "description": ".NET Design Pattern Review",
         "path": "./prompts/dotnet-design-pattern-review.prompt.md"
+      },
+      {
+        "name": "git-flow-branch-creator",
+        "description": "Create Git Flow branches",
+        "path": "./prompts/git-flow-branch-creator.prompt.md"
       }
     ],
     "chatInstructions": [
       {
+        "name": "angular",
+        "description": "Angular framework best practices and guidelines",
+        "path": "./prompts/angular.instructions.md"
+      },
+      {
+        "name": "ansible",
+        "description": "Ansible automation and configuration management",
+        "path": "./prompts/ansible.instructions.md"
+      },
+      {
+        "name": "azure-devops-pipelines",
+        "description": "Azure DevOps CI/CD pipeline best practices",
+        "path": "./prompts/azure-devops-pipelines.instructions.md"
+      },
+      {
+        "name": "blazor",
+        "description": "Blazor development guidelines and best practices",
+        "path": "./prompts/blazor.instructions.md"
+      },
+      {
+        "name": "containerization-docker-best-practices",
+        "description": "Docker containerization best practices",
+        "path": "./prompts/containerization-docker-best-practices.instructions.md"
+      },
+      {
+        "name": "csharp",
+        "description": "C# programming language best practices",
+        "path": "./prompts/csharp.instructions.md"
+      },
+      {
+        "name": "dotnet-architecture-good-practices",
+        "description": ".NET architecture and design best practices",
+        "path": "./prompts/dotnet-architecture-good-practices.instructions.md"
+      },
+      {
+        "name": "go",
+        "description": "Go programming language best practices",
+        "path": "./prompts/go.instructions.md"
+      },
+      {
+        "name": "java",
+        "description": "Java programming language best practices",
+        "path": "./prompts/java.instructions.md"
+      },
+      {
         "name": "memory-bank",
-        "description": "Memory Bank instructions",
+        "description": "Memory Bank instructions for context management",
         "path": "./prompts/memory-bank.instructions.md"
       },
       {
         "name": "performance-optimization",
-        "description": "Performance Optimization instructions",
+        "description": "Performance optimization best practices",
         "path": "./prompts/performance-optimization.instructions.md"
+      },
+      {
+        "name": "rust",
+        "description": "Rust programming language best practices",
+        "path": "./prompts/rust.instructions.md"
+      },
+      {
+        "name": "terraform",
+        "description": "Terraform infrastructure as code best practices",
+        "path": "./prompts/terraform.instructions.md"
+      },
+      {
+        "name": "terraform-azure",
+        "description": "Terraform Azure-specific best practices",
+        "path": "./prompts/terraform-azure.instructions.md"
       }
     ]
   },
