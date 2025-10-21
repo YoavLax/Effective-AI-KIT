@@ -15,6 +15,13 @@ A developer-focused VS Code extension for managing, sharing, and syncing AI chat
 Pre-configured AI chat personalities tailored for specific roles:
 - **Azure Architect**: Specialized guidance for Azure cloud architecture and best practices
 - **Principal Software Engineer**: Expert-level software engineering assistance
+- **Janitor**: Clean any codebase by eliminating tech debt
+
+**Note:** Chat modes require VS Code to be started with proposed API enabled:
+```bash
+code --enable-proposed-api yoavlax.effective-ai-kit
+```
+This is due to the proposed API being non-officially available.
 
 ### 💡 Prompt Files (9 Templates)
 Reusable prompt templates accessible via `/` in GitHub Copilot Chat:
@@ -73,6 +80,7 @@ Automatically referenced instructions that enhance your AI interactions:
 2. Select a chat mode from the available options:
    - `@azure-architect` for Azure-specific guidance
    - `@principal-software-engineer` for software engineering expertise
+   - `@janitor` for cleaning codebases and eliminating tech debt
 
 ### Using Prompt Files
 Prompts can be accessed directly in GitHub Copilot Chat using the `/` command:

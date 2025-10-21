@@ -6,13 +6,40 @@ This document provides guidance for developers working on the Effective AI Kit e
 
 ```
 effective-ai-kit/
+├── .github/              # GitHub configuration
+│   └── copilot-instructions.md  # Development instructions
 ├── .vscode/              # VS Code workspace settings
+├── chatmodes/            # Chat mode files
+│   ├── azure-architect.chatmode.md
+│   ├── janitor.chatmode.md
+│   └── principal-software-engineer.chatmode.md
 ├── images/               # Extension icon and assets
+├── instructions/         # Instruction files (auto-referenced)
+│   ├── angular.instructions.md
+│   ├── ansible.instructions.md
+│   ├── azure-devops-pipelines.instructions.md
+│   ├── blazor.instructions.md
+│   ├── containerization-docker-best-practices.instructions.md
+│   ├── csharp.instructions.md
+│   ├── dotnet-architecture-good-practices.instructions.md
+│   ├── go.instructions.md
+│   ├── java.instructions.md
+│   ├── memory-bank.instructions.md
+│   ├── performance-optimization.instructions.md
+│   ├── rust.instructions.md
+│   ├── terraform.instructions.md
+│   └── terraform-azure.instructions.md
 ├── out/                  # Compiled JavaScript output
-├── prompts/              # All prompt and instruction files
-│   ├── *.prompt.md       # Prompt files (accessible via / in chat)
-│   ├── *.chatmode.md     # Chat mode files
-│   └── *.instructions.md # Instruction files (auto-referenced)
+├── prompts/              # Prompt files (accessible via / in chat)
+│   ├── az-cost-optimize.prompt.md
+│   ├── azure-resource-health-diagnose.prompt.md
+│   ├── boost-prompt.prompt.md
+│   ├── breakdown-feature-implementation.prompt.md
+│   ├── containerize-aspnet-framework.prompt.md
+│   ├── create-agentsmd.prompt.md
+│   ├── create-readme.prompt.md
+│   ├── dotnet-design-pattern-review.prompt.md
+│   └── git-flow-branch-creator.prompt.md
 ├── src/                  # TypeScript source code
 │   ├── extension.ts      # Main extension entry point
 │   └── test/             # Test files
@@ -26,7 +53,7 @@ effective-ai-kit/
 ## File Types and Their Purpose
 
 ### 1. Prompt Files (`.prompt.md`)
-- **Location**: `prompts/` directory
+- **Location**: `prompts/` directory (9 prompt files)
 - **Purpose**: Reusable templates accessible in GitHub Copilot Chat via `/command`
 - **Usage**: Users type `/` in chat to see and select these prompts
 - **Registration**: Must be added to `package.json` under `contributes.chatPromptFiles`
@@ -41,7 +68,7 @@ effective-ai-kit/
 ```
 
 ### 2. Chat Mode Files (`.chatmode.md`)
-- **Location**: `prompts/` directory
+- **Location**: `chatmodes/` directory (3 chat modes)
 - **Purpose**: Pre-configured AI personalities for specific roles
 - **Usage**: Users select modes with `@mode-name` in chat
 - **Registration**: Must be added to `package.json` under `contributes.chatModes`
@@ -56,7 +83,7 @@ effective-ai-kit/
 ```
 
 ### 3. Instruction Files (`.instructions.md`)
-- **Location**: `prompts/` directory
+- **Location**: `instructions/` directory (14 instruction files)
 - **Purpose**: Automatically referenced context that enhances AI interactions
 - **Usage**: Work in the background - no user action required
 - **Registration**: Must be added to `package.json` under `contributes.chatInstructions`
@@ -74,7 +101,7 @@ effective-ai-kit/
 
 ### Adding a New Prompt File
 
-1. **Create the file** in `prompts/` directory:
+1. **Create the file** in the `prompts/` directory:
    ```bash
    prompts/my-new-prompt.prompt.md
    ```
@@ -106,9 +133,9 @@ effective-ai-kit/
 
 ### Adding a New Instruction File
 
-1. **Create the file** in `prompts/` directory:
+1. **Create the file** in the `instructions/` directory:
    ```bash
-   prompts/my-technology.instructions.md
+   instructions/my-technology.instructions.md
    ```
 
 2. **Add frontmatter** (optional):
@@ -200,12 +227,12 @@ effective-ai-kit/
 
 1. **Update version** in `package.json`:
    ```json
-   "version": "1.0.4"
+   "version": "1.0.8"
    ```
 
 2. **Update CHANGELOG.md** with changes:
    ```markdown
-   ## [1.0.4] - 2025-XX-XX
+   ## [1.0.8] - 2025-XX-XX
    
    ### Added
    - New feature
@@ -220,7 +247,7 @@ effective-ai-kit/
 3. **Commit changes**:
    ```bash
    git add .
-   git commit -m "Bump version to 1.0.4"
+   git commit -m "Bump version to 1.0.8"
    ```
 
 ### Publishing to Marketplace

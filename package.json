@@ -3,7 +3,7 @@
   "publisher": "yoavlax",
   "displayName": "Effective AI Kit",
   "description": "A developer-focused VSCode extension for managing, sharing, and syncing AI chat modes, prompt configurations, and agent instructions. Designed for teams building with AI, streamlines prompt engineering workflows and enables consistent, reusable AI behavior across environments.",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "engines": {
     "vscode": "^1.105.0"
   },
