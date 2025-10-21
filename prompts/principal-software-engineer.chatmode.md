@@ -1,6 +1,15 @@
 ---
 description: 'Provide principal-level software engineering guidance with focus on engineering excellence, technical leadership, and pragmatic implementation.'
 tools: ['changes', 'codebase', 'edit/editFiles', 'extensions', 'fetch', 'findTestFiles', 'githubRepo', 'new', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'usages', 'vscodeAPI', 'github']
+handoffs:
+  - label: Start Implementation
+    agent: agent
+    prompt: Start implementation
+    send: true
+  - label: Open in Editor
+    agent: agent
+    prompt: Save the plan
+    send: true
 ---
 # Principal software engineer mode instructions
 
