@@ -46,14 +46,19 @@
     ],
     "chatModes": [
       {
-        "name": "azure-architect",
+        "name": "Azure-architect",
         "description": "Azure Architect chat mode",
-        "path": "./prompts/azure-architect.chatmode.md"
+        "path": "./chatmodes/azure-architect.chatmode.md"
       },
       {
-        "name": "principal-software-engineer",
+        "name": "Principal-software-engineer",
         "description": "Principal Software Engineer chat mode",
-        "path": "./prompts/principal-software-engineer.chatmode.md"
+        "path": "./chatmodes/principal-software-engineer.chatmode.md"
+      },
+      {
+        "name": "Janitor",
+        "description": "Clean any codebase by eliminating tech debt",
+        "path": "./chatmodes/janitor.chatmode.md"
       }
     ],
     "chatPromptFiles": [
@@ -107,72 +112,72 @@
       {
         "name": "angular",
         "description": "Angular framework best practices and guidelines",
-        "path": "./prompts/angular.instructions.md"
+        "path": "./instructions/angular.instructions.md"
       },
       {
         "name": "ansible",
         "description": "Ansible automation and configuration management",
-        "path": "./prompts/ansible.instructions.md"
+        "path": "./instructions/ansible.instructions.md"
       },
       {
         "name": "azure-devops-pipelines",
         "description": "Azure DevOps CI/CD pipeline best practices",
-        "path": "./prompts/azure-devops-pipelines.instructions.md"
+        "path": "./instructions/azure-devops-pipelines.instructions.md"
       },
       {
         "name": "blazor",
         "description": "Blazor development guidelines and best practices",
-        "path": "./prompts/blazor.instructions.md"
+        "path": "./instructions/blazor.instructions.md"
       },
       {
         "name": "containerization-docker-best-practices",
         "description": "Docker containerization best practices",
-        "path": "./prompts/containerization-docker-best-practices.instructions.md"
+        "path": "./instructions/containerization-docker-best-practices.instructions.md"
       },
       {
         "name": "csharp",
         "description": "C# programming language best practices",
-        "path": "./prompts/csharp.instructions.md"
+        "path": "./instructions/csharp.instructions.md"
       },
       {
         "name": "dotnet-architecture-good-practices",
         "description": ".NET architecture and design best practices",
-        "path": "./prompts/dotnet-architecture-good-practices.instructions.md"
+        "path": "./instructions/dotnet-architecture-good-practices.instructions.md"
       },
       {
         "name": "go",
         "description": "Go programming language best practices",
-        "path": "./prompts/go.instructions.md"
+        "path": "./instructions/go.instructions.md"
       },
       {
         "name": "java",
         "description": "Java programming language best practices",
-        "path": "./prompts/java.instructions.md"
+        "path": "./instructions/java.instructions.md"
       },
       {
         "name": "memory-bank",
         "description": "Memory Bank instructions for context management",
-        "path": "./prompts/memory-bank.instructions.md"
+        "path": "./instructions/memory-bank.instructions.md"
       },
       {
         "name": "performance-optimization",
         "description": "Performance optimization best practices",
-        "path": "./prompts/performance-optimization.instructions.md"
+        "path": "./instructions/performance-optimization.instructions.md"
       },
       {
         "name": "rust",
         "description": "Rust programming language best practices",
-        "path": "./prompts/rust.instructions.md"
+        "path": "./instructions/rust.instructions.md"
       },
       {
         "name": "terraform",
         "description": "Terraform infrastructure as code best practices",
-        "path": "./prompts/terraform.instructions.md"
+        "path": "./instructions/terraform.instructions.md"
       },
       {
         "name": "terraform-azure",
         "description": "Terraform Azure-specific best practices",
-        "path": "./prompts/terraform-azure.instructions.md"
+        "path": "./instructions/terraform-azure.instructions.md"
       }
     ]
   },
