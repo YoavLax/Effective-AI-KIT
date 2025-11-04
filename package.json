@@ -3,7 +3,7 @@
   "publisher": "yoavlax",
   "displayName": "Effective AI Kit",
   "description": "A developer-focused VSCode extension for managing, sharing, and syncing AI chat modes, prompt configurations, and agent instructions. Designed for teams building with AI, streamlines prompt engineering workflows and enables consistent, reusable AI behavior across environments.",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -34,9 +34,6 @@
   "homepage": "https://github.com/YoavLax/Effective-AI-KIT#readme",
   "activationEvents": [],
   "main": "./out/extension.js",
-  "enabledApiProposals": [
-    "chatParticipantPrivate"
-  ],
   "contributes": {
     "commands": [
       {
@@ -44,21 +41,21 @@
         "title": "Effective AI Kit"
       }
     ],
-    "chatModes": [
+    "chatAgents": [
       {
         "name": "Azure-architect",
         "description": "Azure Architect chat mode",
-        "path": "./chatmodes/azure-architect.chatmode.md"
+        "path": "./chatagents/azure-architect.chatagent.md"
       },
       {
         "name": "Principal-software-engineer",
         "description": "Principal Software Engineer chat mode",
-        "path": "./chatmodes/principal-software-engineer.chatmode.md"
+        "path": "./chatagents/principal-software-engineer.chatagent.md"
       },
       {
         "name": "Janitor",
         "description": "Clean any codebase by eliminating tech debt",
-        "path": "./chatmodes/janitor.chatmode.md"
+        "path": "./chatagents/janitor.chatagent.md"
       }
     ],
     "chatPromptFiles": [

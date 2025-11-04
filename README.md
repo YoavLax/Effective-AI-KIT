@@ -17,12 +17,6 @@ Pre-configured AI chat personalities tailored for specific roles:
 - **Principal Software Engineer**: Expert-level software engineering assistance
 - **Janitor**: Clean any codebase by eliminating tech debt
 
-**Note:** Chat modes require VS Code to be started with proposed API enabled:
-```bash
-code --enable-proposed-api yoavlax.effective-ai-kit
-```
-This is due to the proposed API being non-officially available.
-
 ### 💡 Prompt Files (9 Templates)
 Reusable prompt templates accessible via `/` in GitHub Copilot Chat:
 

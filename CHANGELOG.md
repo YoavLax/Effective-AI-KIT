@@ -2,6 +2,13 @@
 
 All notable changes to the "effective-ai-kit" extension will be documented in this file.
 
+## [1.0.9] - 2025-11-04
+
+### Changed
+- Updated development documentation in copilot-instructions.md
+- Improved project structure documentation
+- Updated file organization references
+
 ## [1.0.3] - 2025-10-19
 
 ### Added
